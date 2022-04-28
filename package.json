@@ -1,0 +1,24 @@
+{
+  "name": "task1.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denis-Milashuk/task1.1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denis-Milashuk/task1.1/issues"
+  },
+  "homepage": "https://github.com/Denis-Milashuk/task1.1#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^17.0.29",
+    "nodemon": "^2.0.15"
+  }
+}
