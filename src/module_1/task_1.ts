@@ -1,4 +1,3 @@
-import 'events'
 const { Transform } = require('stream');
 
 const transformStream = new Transform();

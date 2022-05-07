@@ -1,6 +1,9 @@
 #idea
 .idea
 
+#custom
+.txt
+
 # Logs
 logs
 *.log

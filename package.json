@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "start": "nodemon ./index.ts",
-    "task1": "nodemon ./src/module_1/task_1.ts"
+    "task1": "nodemon ./src/module_1/task_1.ts",
+    "task2": "nodemon ./src/module_1/task_2.ts"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,11 @@
   "homepage": "https://github.com/Denis-Milashuk/task1.1#readme",
   "devDependencies": {
     "@tsconfig/node16": "^1.0.2",
+    "@types/csvtojson": "^2.0.0",
     "@types/node": "^17.0.29",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
